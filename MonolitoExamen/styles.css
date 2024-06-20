@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.monolith {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fbe9e0;
+    padding: 0;
+}
+
+.square {
+    border: 2px solid #000;
+    position: relative;
+}
+
+.top {
+    width: 100px;
+    height: 20px;
+    background-color: #fbe9e0;
+}
+
+.head {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbe9e0;
+    margin-bottom: -2px; /* Para eliminar el espacio entre la cabeza y el cuerpo */
+}
+
+.eye {
+    width: 10px;
+    height: 10px;
+    background-color: #dda15e;
+    position: absolute;
+    top: 10px;
+}
+
+.left-eye {
+    left: 5px;
+}
+
+.right-eye {
+    right: 5px;
+}
+
+.nose {
+    width: 10px;
+    height: 20px;
+    background-color: #dda15e;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mouth {
+    width: 20px;
+    height: 10px;
+    background-color: #dda15e;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.body {
+    width: 80px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fbe9e0;
+    position: relative;
+    margin-bottom: -2px; /* Para eliminar el espacio entre el cuerpo y las piernas */
+}
+
+.detail {
+    width: 40px;
+    height: 20px;
+    background-color: #b5651d;
+    position: absolute;
+    top: 60px;
+}
+
+.left-detail {
+    left: 5px;
+}
+
+.right-detail {
+    right: 5px;
+}
+
+.legs {
+    width: 80px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #fbe9e0;
+    margin-top: -2px; /* Para eliminar el espacio entre las piernas y los pies */
+}
+
+.leg {
+    width: 30px;
+    height: 70px;
+    background-color: #fbe9e0;
+    border: 2px solid #000;
+}
+
+.feet {
+    width: 100px;
+    height: 20px;
+    background-color: #fbe9e0;
+}
