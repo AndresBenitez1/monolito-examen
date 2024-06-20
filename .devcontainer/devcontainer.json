@@ -1,18 +1,1 @@
-{
-    "name": "Monolith Project",
-    "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-14",
-    "extensions": [
-        "esbenp.prettier-vscode",
-        "dbaeumer.vscode-eslint"
-    ],
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash"
-    },
-    "postCreateCommand": "npm install",
-    "portsAttributes": {
-        "3000": {
-            "label": "Application",
-            "onAutoForward": "notify"
-        }
-    }
-}
+
